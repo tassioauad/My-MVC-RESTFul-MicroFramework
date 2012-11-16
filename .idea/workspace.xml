@@ -32,7 +32,16 @@
       <file leaf-file-name="Caller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/library/Caller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="7" selection-end="37" vertical-scroll-proportion="-1.3076923">
+            <state line="7" column="5" selection-start="96" selection-end="96" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="11" selection-start="100" selection-end="100" vertical-scroll-proportion="0.09123435">
               <folding />
             </state>
           </provider>
@@ -42,15 +51,6 @@
         <entry file="file://$PROJECT_DIR$/application/library/URLRequest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="38" selection-start="127" selection-end="127" vertical-scroll-proportion="0.09123435">
               <folding />
             </state>
           </provider>
@@ -322,6 +322,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/library/URLRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-7.1923075">
@@ -331,21 +338,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/library/Caller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="37" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/library/URLRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.6153846">
+        <state line="7" column="5" selection-start="96" selection-end="96" vertical-scroll-proportion="-4.576923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="127" selection-end="127" vertical-scroll-proportion="0.09123435">
+        <state line="3" column="11" selection-start="100" selection-end="100" vertical-scroll-proportion="0.09123435">
           <folding />
         </state>
       </provider>
