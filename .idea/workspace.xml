@@ -38,10 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="URLRequest.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="URLRequest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/library/URLRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="0.12757973">
+            <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="38" selection-start="127" selection-end="127" vertical-scroll-proportion="0.09123435">
               <folding />
             </state>
           </provider>
@@ -77,6 +86,7 @@
         <option value="$PROJECT_DIR$/application/library/Caller.php" />
         <option value="$PROJECT_DIR$/application/library/Request.php" />
         <option value="$PROJECT_DIR$/application/library/URLRequest.php" />
+        <option value="$PROJECT_DIR$/application/.htaccess" />
       </list>
     </option>
   </component>
@@ -191,8 +201,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Web\My-Simple-PHP-Framework" />
       <recent name="C:\Web\My-Simple-PHP-Framework\application" />
+      <recent name="C:\Web\My-Simple-PHP-Framework" />
       <recent name="C:\Web\My-Simple-PHP-Framework\config" />
     </key>
   </component>
@@ -305,13 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/library/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="-12.423077">
@@ -335,7 +338,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/library/URLRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="0.12757973">
+        <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="38" selection-start="127" selection-end="127" vertical-scroll-proportion="0.09123435">
           <folding />
         </state>
       </provider>
