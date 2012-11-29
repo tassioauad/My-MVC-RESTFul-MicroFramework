@@ -3,38 +3,29 @@
 namespace library;
 
 use library\AbstractController;
-use application\config\MvcRouterConfig;
+use application\config\RouterConfig;
 
 abstract class Caller
 {
     public static function callURL(Request $request)
     {
-        $controllerName = $request->getController();
+        $controllerNamespace = "application/src/controller/" . $request->getController();
         $actionName = $request->getAction();
-        require_once(MvcRouterConfig::$CONTROLLER_PATH . $controllerName . ".php");
+        $viewPath = RouterConfig::$paths["views"][$controllerNamespace][$request->getAction()];
+
+        if ($viewPath == null) {
+            //TODO Action doesn't routed
+        }
 
         /**
          * @var AbstractController $controller
          */
-        if (class_exists($controllerName)) {
-            $controller = new $controllerName();
-            $controller->setParamsToController($request->getParams());
-            if (is_callable(array($controllerName,$actionName))) {
-                call_user_func(array($controllerName,$actionName));
-                extract($controller->getAllParamsToView());
-                $viewPath = MvcRouterConfig::$VIEW_PATH . "/" . strtolower($controllerName)
-                                    . "/" . $actionName . ".phtml";
-                require_once($viewPath);
-            } else {
-                //TODO: CALL ERRORCONTROLLER
-                //TODO : ERROR: The function $actionName in class $controllerName doesn't exist!
-            }
+        $controller = new $controllerNamespace();
+        $controller->setParamsToController($request->getParams());
+        $controller->$actionName();
 
-        } else {
-            //TODO: CALL ERRORCONTROLLER
-            //TODO : ERROR: This controller doesn't exist!
-        }
-
+        extract($controller->getAllParamsToView());
+        require_once($viewPath);
     }
 
     public static function callController()
